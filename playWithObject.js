@@ -1,3 +1,4 @@
+// website https://medium.com/@andrey.igorevich.borisov/10-javascript-exercises-with-objects-8942cc502754
 /**
  * Task description: Write a method that returns a deep array like [[key, value]]
  * Expected Result: ({ a: 1, b: 2 }) => [['a', 1], ['b', 2]]
