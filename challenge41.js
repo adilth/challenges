@@ -27,5 +27,7 @@ function solution(num) {
   return format;
 }
 console.log(solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
+console.log(solution([0, 7, 3, 8, 7, 6, 2, 8, 1, 0]));
 
 //output : "(123) 456-7890"
+//(073) 876-2810
