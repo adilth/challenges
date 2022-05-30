@@ -52,7 +52,9 @@ function getMaxDifference(nums) {
 console.log(getMaxDifference([1, 5, 7, 22, 7]));
 console.log(getMaxDifference([-3, -27, -4, -2]));
 console.log(getMaxDifference([-7, -42, -809, -14, -12]));
+console.log(getMaxDifference([10, -1, 5, -14, 7, 89, 5]));
 
 //output 15
 //23
 //767
+//79
