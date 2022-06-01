@@ -34,7 +34,9 @@ function maxSumNumber(arr, num) {
 console.log(maxSumNumber([2, 5, 6, 5], 3));
 console.log(maxSumNumber([10, 8, 3, 2, 1, 4, 10], 5));
 console.log(maxSumNumber([10, 3, -1, -27], 3));
+console.log(maxSumNumber([7, 12, 1, 45, 0, -2, 45, 4, 7], 7));
 
-//150
+// output : 150
 //9600
 //-30
+//4762800
