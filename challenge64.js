@@ -26,7 +26,7 @@ function minNumform(arr) {
 // function minNumform(arr) {
 //   return Number(
 //     Array.from(new Set(arr))
-//       .sort((a, b) => a - bs)
+//       .sort((a, b) => a - b)
 //       .join("")
 //   );
 // }
