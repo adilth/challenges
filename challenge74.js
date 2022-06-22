@@ -31,10 +31,10 @@ Explanation:
 After placing signs and brackets, the Maximum value obtained from the expression is 9 * (1+1) = 18.
 */
 
-function expressionMatter(a, b, c) {
+function maxExpressionMatter(a, b, c) {
   return Math.max(a + b + c, a * b * c, a * (b + c), (a + b) * c);
 }
 
-console.log(expressionMatter(1, 2, 4)); //12
-console.log(expressionMatter(1, 42, 8)); //344
-console.log(expressionMatter(5, 0, 2)); //10
+console.log(maxExpressionMatter(1, 2, 4)); //12
+console.log(maxExpressionMatter(1, 42, 8)); //344
+console.log(maxExpressionMatter(5, 0, 2)); //10
