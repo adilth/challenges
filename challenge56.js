@@ -1,4 +1,4 @@
-/*Description //7kyu Product Of Maximums Of Array (Array Series #2)
+/*Description //7kyu 'Product Of Maximums Of Array (Array Series #2)'
 Given an array/list [] of integers , Find the product of the k maximal numbers.
 
 Notes
