@@ -35,7 +35,7 @@ function isItOnTime(d) {
 //other solution
 // function isItOnTime(d) {
 //   function count(val) {
-//     return d.filter( (a) => a == val).length;
+//     return d.filter(a => a == val).length;
 //   }
 //   return d.length == 10 && count("n") == count("s") && count("w") == count("e");
 // }
