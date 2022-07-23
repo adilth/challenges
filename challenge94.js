@@ -22,4 +22,7 @@ Have fun!
 function sumAndcheckIfEvenOrOdd(arr) {
   return arr.reduce((acc, cur) => acc + cur, 0) % 2 === 0 ? "even" : "odd";
 }
-console.log(sumAndcheckIfEvenOrOdd([0, 1, 2]));
+
+console.log(sumAndcheckIfEvenOrOdd([0, 1, 2])); //odd
+console.log(sumAndcheckIfEvenOrOdd([5, 7, 6, 2])); //even
+console.log(sumAndcheckIfEvenOrOdd([4, 0, 1, 7, 4, 7])); //odd
