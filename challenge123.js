@@ -26,5 +26,5 @@ function repeats(arr) {
   console.log(filt);
   return filt.reduce((acc, cur) => acc + cur, 0);
 }
-console.log(repeats([9, 10, 19, 13, 19, 13]));
-console.log(repeats([5, 17, 18, 11, 13, 18, 11, 13]));
+console.log(repeats([9, 10, 19, 13, 19, 13])); //19;
+console.log(repeats([5, 17, 18, 11, 13, 18, 11, 13])); //22;
