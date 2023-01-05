@@ -31,12 +31,18 @@ If a or b are nil (or null or None, depending on the language), the problem does
 function comp(array1, array2) {
   if (!array1 || !array2) return false;
   array1 = array1.map((el) => el * el);
-  return array1.sort().join("") == array2.sort().join("");
+  return array1.sort().join("") === array2.sort().join("");
 }
 
 console.log(
   comp(
     [121, 144, 19, 161, 19, 144, 19, 11],
-    [132, 14641, 20736, 361, 25921, 361, 20736, 361]
+    [121, 14641, 20736, 361, 25921, 361, 20736, 361]
   )
-);
+); //true
+console.log(
+  comp(
+    [121, 144, 19, 161, 19, 144, 19, 11],
+    [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
+  )
+); //false
